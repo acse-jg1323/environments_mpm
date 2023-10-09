@@ -3,8 +3,7 @@ from scipy import misc
 
 import numpy as np
 
-
-__all__ = ['rand_array','smooth_image','my_mat_solve']
+__all__ = ['rand_array','smooth_image','my_mat_solve','pandas']
 
 
 def rand_array(shape):
@@ -15,3 +14,6 @@ def smooth_image(a, sigma = 1):
 
 def my_mat_solve(A, b):
     return A.inv()*b
+
+def pandas():
+    return 1
